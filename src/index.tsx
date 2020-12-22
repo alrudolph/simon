@@ -47,7 +47,7 @@ $(() => {
     let sequence: Array<String> = [];
 
     const highscore = localStorage.getItem('highscore');
-    $('#end').text(`High Score: ${highscore !== null ? highscore : 0}`);
+    $('#end').text(`High Score: ${highscore !== null ? highscore : '0'}`);
 
     const startGame = () => {
         $('#yellow').css({ opacity: 0.125 });
