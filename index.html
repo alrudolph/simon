@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simon</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="public/jquery-3.5.1.min.js"></script>
+        <script src="public/index.js"></script>
+    </head>
+    <body>
+        <main>
+            <div id="display">
+                <p>Simon is a memory game. The computer will play a sequence of colors and you have to repeat the sequence back. Each round one additional color will be added to the sequence.</p>
+                <p id="round"></p>
+                <p id="end"></p>
+                <button id="newgame">New Game</button>
+            </div>
+            <div id="game">
+                <div class="row">
+                    <div id="yellow" class="box"></div>
+                    <div id="blue" class="box"></div>
+                </div>
+                <div class="row">
+                    <div id="red" class="box"></div>
+                    <div id="green" class="box"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
