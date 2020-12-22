@@ -100,7 +100,7 @@ $(function () {
     var end = false;
     var sequence = [];
     var highscore = localStorage.getItem('highscore');
-    $('#end').text("High Score: " + (highscore ? highscore : 0));
+    $('#end').text("High Score: " + (highscore !== null ? highscore : 0));
     var startGame = function () {
         $('#yellow').css({ opacity: 0.125 });
         $('#blue').css({ opacity: 0.125 });
