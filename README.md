@@ -4,4 +4,4 @@ Simon is a memory game. The computer will play a sequence of colors and you have
 
 This project was made using **Typescript**, **Flexbox** and uses local storage to save the high score.
 
-Play Here: [Github Pages](alrudolph.github.io/simon/)
+Play Here: [Github Pages](https://alrudolph.github.io/simon/)
