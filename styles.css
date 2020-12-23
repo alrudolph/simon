@@ -4,9 +4,12 @@ html, body {
     width: 100%;
     font-size: 20px;
     font-family: "Monaco", monospace;
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     overflow: visible;
+    -webkit-flex-wrap: warp;
     flex-wrap: wrap;
 }
 
@@ -16,8 +19,11 @@ p {
 }
 
 main {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
     align-items: center;
 
     width: 550px;
@@ -26,14 +32,19 @@ main {
 }
 
 #display {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
     align-items: center;
     height: auto;
 }
 
 .row {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
     height: auto;
 }
