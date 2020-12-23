@@ -44,7 +44,7 @@ $(() => {
     let turn = '';
     let pos = 0;
     let end = false;
-    let sequence: Array<String> = [];
+    let sequence: Array<String>;
 
     const highscore = localStorage.getItem('highscore');
     $('#end').text(`High Score: ${highscore !== null ? highscore : '0'}`);

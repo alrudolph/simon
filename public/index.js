@@ -98,7 +98,7 @@ $(function () {
     var turn = '';
     var pos = 0;
     var end = false;
-    var sequence = [];
+    var sequence;
     var highscore = localStorage.getItem('highscore');
     $('#end').text("High Score: " + (highscore !== null ? highscore : '0'));
     var startGame = function () {
