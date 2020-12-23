@@ -11,6 +11,7 @@ html, body {
 
 p {
     margin: 10px;
+    height: auto;
 }
 
 main {
@@ -27,11 +28,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
 }
 
 .row {
     display: flex;
     justify-content: center;
+    height: auto;
 }
 
 .box {
